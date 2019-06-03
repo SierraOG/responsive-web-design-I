@@ -352,5 +352,48 @@ hr {
 }
 
 @media(max-width:500px){
-
+    .static-navbar nav{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+    }
+    .static-navbar nav a {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding: 4px;
+    }
+    .logo{
+        margin: auto;
+        align-items: center;
+        border-bottom: 1px solid black;
+        padding: 4px 78px;
+    }
+    .indexDiv{
+        width:70%;
+        margin: 0;
+        justify-content: center;
+    }
+    .section-one{
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto;
+        height: 100%;
+    }
+    .section-one div{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+    }
+    .section-two{
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto;
+        height: 100%;
+    }
+    .section-two div{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+    }
 }
