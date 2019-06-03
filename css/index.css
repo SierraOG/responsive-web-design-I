@@ -221,20 +221,21 @@ header div a {
 .index-header {
     border-bottom: 1px solid black;
     width: 70%;
-    margin: 5%;
+    margin: 5% 0;
     display: flex;
     width: 100%;
     height: 100%;
 }
 
 .section-one {
-  margin: 2% auto 2% auto;
+  width: 100%;
+  margin: 2% 0;
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .section-one div {
-  width: 50%;
+  width: 44%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -258,14 +259,13 @@ header div a {
   margin-top: 36px;
   padding-bottom: 47px;
   display: flex;
-  justify-content: center;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .section-two div {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
   margin-right: 10px;
 }
 
@@ -321,7 +321,7 @@ hr {
         order:1;
     }
     .indexDiv{
-        margin: 8% auto;
+        margin: 6% auto;
         justify-content: center;
         width: 80%
     }
@@ -350,8 +350,9 @@ hr {
         padding: 4px 78px;
     }
     .indexDiv{
+        margin: auto;
         max-width: 275px;
-        margin: auto 0 5% 10px;
+        margin: 5% 0;
         justify-content: center;
     }
     .section-one{
