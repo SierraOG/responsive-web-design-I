@@ -331,15 +331,23 @@ hr {
     .index-header img{
         display:none;
     }
+    .static-navbar nav{
+        flex-flow: row wrap;
+    }
     .logo{
-        order: -99;
-        width: 70%;
+        margin: 10px 200px;
+        order: -100;
+    }
+    .static-navbar nav a{
+        order:1;
     }
     .indexDiv{
-        margin: auto;
+        margin: 0px auto;
         justify-content: center;
-        width: 70%
-        text-align: center;
+        width: 80%
+    }
+    .section-one{
+        margin-bottom:20px;
     }
 }
 
